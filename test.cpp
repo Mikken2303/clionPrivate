@@ -1,11 +1,26 @@
 #include <iostream>
 #include <string>
 #include "head.h"
+const int size = 4;
+
+std::basic_string<char> out;
+
+int array[4][4] = {
+        {1,1,1,1,},
+        {1,0,0,1,},
+        {1,0,0,1,},
+        {1,1,1,1,},
+};
+
 int main() {
-    int n;
-    Log(":");
-    std::cin>> n;
-    for (int i = 0; i < n; ++i) {
-        std::cout<<randitTest(1,6)<<std::endl;
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            if (array[i][j] == 1) {
+                out[j] = '#';
+            } else if (array[i][j] == 0) {
+                out[j] = '.';
+            }
+        }
+
     }
 }
