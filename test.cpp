@@ -3,7 +3,7 @@
 #include "head.h"
 const int size = 4;
 
-std::basic_string<char> out;
+std::string out ="XXXX" ;
 
 int array[4][4] = {
         {1,1,1,1,},
@@ -21,6 +21,6 @@ int main() {
                 out[j] = '.';
             }
         }
-
+        std::cout<<out<<std::endl;
     }
 }
