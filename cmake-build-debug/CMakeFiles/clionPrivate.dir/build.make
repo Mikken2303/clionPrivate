@@ -68,28 +68,28 @@ include CMakeFiles/clionPrivate.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clionPrivate.dir/flags.make
 
-CMakeFiles/clionPrivate.dir/test.cpp.obj: CMakeFiles/clionPrivate.dir/flags.make
-CMakeFiles/clionPrivate.dir/test.cpp.obj: C:/Users/User/CLionProjects/clionPrivate/test.cpp
-CMakeFiles/clionPrivate.dir/test.cpp.obj: CMakeFiles/clionPrivate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\clionPrivate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clionPrivate.dir/test.cpp.obj"
-	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clionPrivate.dir/test.cpp.obj -MF CMakeFiles\clionPrivate.dir\test.cpp.obj.d -o CMakeFiles\clionPrivate.dir\test.cpp.obj -c C:\Users\User\CLionProjects\clionPrivate\test.cpp
+CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj: CMakeFiles/clionPrivate.dir/flags.make
+CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj: C:/Users/User/CLionProjects/clionPrivate/long_term_storage/test.cpp
+CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj: CMakeFiles/clionPrivate.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\clionPrivate\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj"
+	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj -MF CMakeFiles\clionPrivate.dir\long_term_storage\test.cpp.obj.d -o CMakeFiles\clionPrivate.dir\long_term_storage\test.cpp.obj -c C:\Users\User\CLionProjects\clionPrivate\long_term_storage\test.cpp
 
-CMakeFiles/clionPrivate.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clionPrivate.dir/test.cpp.i"
-	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\clionPrivate\test.cpp > CMakeFiles\clionPrivate.dir\test.cpp.i
+CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.i"
+	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\clionPrivate\long_term_storage\test.cpp > CMakeFiles\clionPrivate.dir\long_term_storage\test.cpp.i
 
-CMakeFiles/clionPrivate.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clionPrivate.dir/test.cpp.s"
-	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\clionPrivate\test.cpp -o CMakeFiles\clionPrivate.dir\test.cpp.s
+CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.s"
+	"D:\CLion 2023.2.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\clionPrivate\long_term_storage\test.cpp -o CMakeFiles\clionPrivate.dir\long_term_storage\test.cpp.s
 
 # Object files for target clionPrivate
 clionPrivate_OBJECTS = \
-"CMakeFiles/clionPrivate.dir/test.cpp.obj"
+"CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj"
 
 # External object files for target clionPrivate
 clionPrivate_EXTERNAL_OBJECTS =
 
-clionPrivate.exe: CMakeFiles/clionPrivate.dir/test.cpp.obj
+clionPrivate.exe: CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj
 clionPrivate.exe: CMakeFiles/clionPrivate.dir/build.make
 clionPrivate.exe: CMakeFiles/clionPrivate.dir/linkLibs.rsp
 clionPrivate.exe: CMakeFiles/clionPrivate.dir/objects1.rsp

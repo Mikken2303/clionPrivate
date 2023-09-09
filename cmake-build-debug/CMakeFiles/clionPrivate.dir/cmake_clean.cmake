@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clionPrivate.dir/test.cpp.obj"
-  "CMakeFiles/clionPrivate.dir/test.cpp.obj.d"
+  "CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj"
+  "CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj.d"
   "clionPrivate.exe"
   "clionPrivate.exe.manifest"
   "clionPrivate.pdb"

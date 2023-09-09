@@ -128,29 +128,29 @@ clionPrivate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/build
 .PHONY : clionPrivate/fast
 
-test.obj: test.cpp.obj
-.PHONY : test.obj
+long_term_storage/test.obj: long_term_storage/test.cpp.obj
+.PHONY : long_term_storage/test.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+long_term_storage/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.obj
+.PHONY : long_term_storage/test.cpp.obj
 
-test.i: test.cpp.i
-.PHONY : test.i
+long_term_storage/test.i: long_term_storage/test.cpp.i
+.PHONY : long_term_storage/test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/test.cpp.i
-.PHONY : test.cpp.i
+long_term_storage/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.i
+.PHONY : long_term_storage/test.cpp.i
 
-test.s: test.cpp.s
-.PHONY : test.s
+long_term_storage/test.s: long_term_storage/test.cpp.s
+.PHONY : long_term_storage/test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/test.cpp.s
-.PHONY : test.cpp.s
+long_term_storage/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clionPrivate.dir\build.make CMakeFiles/clionPrivate.dir/long_term_storage/test.cpp.s
+.PHONY : long_term_storage/test.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... clionPrivate
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... long_term_storage/test.obj
+	@echo ... long_term_storage/test.i
+	@echo ... long_term_storage/test.s
 .PHONY : help
 
 
